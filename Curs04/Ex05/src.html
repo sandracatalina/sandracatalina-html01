@@ -9,27 +9,126 @@
   <script src="main.js"></script>
 </head>
 <body>
-  <form>
-    <fieldset>
-      <legend>Account data:</legend>
-      <p>Title: <label>Mr</label><input type="radio" checked> <label>Ms</label><input type="radio"> <label>Unspecified</label><input type="radio"></p>
-      <label>*Name:</label><input placeholder="Name">
-      <label>*Surname:</label><input placeholder="Surname"><br><br>
-      <label>*Username:</label><input placeholder="Username"><br><br>
-      <label>*Email:</label><input placeholder="Email"> <br><br>
-      <label>*Password:</label><input placeholder="Password" type="password"><br><br>
-      <label>*Confirm Password:</label><input placeholder="Confirm Password" type="password"><br><br>
-
-      <input type="checkbox"><label>*You are required to agree to the <a href="">terms and conditions</a></label>
-      <br>
-      <input type="checkbox"><label>Agree to this and <i>we will send you emails</i>.</label>
-      <br>
-      <input type="checkbox"><label>GDPR generic consent?</label>
-      
-      <br><br>
-      <button>Create Account</button>
-      <button>Reset</button>
-    </fieldset>
-  </form>
+ <p> <a href="https://www.google.com/"target="blank" title="Home"> Home</a>
+     <a href="https://www.google.com/"target="blank" title="Create account">Create account</a>
+     <a href="https://www.google.com/ "target="blank" title="Your account">Your account</a>
+     <a href="https://www.google.com/"target="blank" title="Customer service">Customer service</a>
+     <a href="https://www.google.com/ "target="blank" title="Contact">Contact</a>
+ </p>
+<h1>Create Account</h1>
+<p><img src="images/your-account.jpg" 
+        alt="your account">
+</p>
+<p>This is your account section.</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<h2>Create an account</h2>
+<form action="">
+  <fieldset>
+  <legend>Account data</legend>
+  <label>Title</label>
+  <label for="gender-male">Mr</label>
+  <input type="radio"
+         name="gender"
+         id="gender-male"
+         checked
+  >
+  <label for="gender-female">Ms</label>
+  <input type="radio"
+         name="gender"
+         id="gender-female"
+  >
+  <label for="gender-unspecified">Unspecified</label>
+  <input type="radio"
+         name="gender"
+         id="gender-unspecified"
+  >
+  <label for="name">*Name</label>
+  <input type="text"
+         name="name"
+         id="name"
+         placeholder="name"
+         required
+  >
+  <label for="surname">*Surname</label>
+  <input type="text"
+         name="surname"
+         id="surname"
+         placeholder="surname"
+         required
+  >
+  <br>
+  <label for="username">*Username</label>
+  <input type="text"
+         name="username"
+         id="username"
+         placeholder="username"
+         required
+  >
+  <br>
+  <label for="email">*Email</label>
+  <input type="email"
+         name="email"
+         id="email"
+         placeholder="email"
+         required
+  >
+  <br>
+  <label for="password">*Password</label>
+  <input type="password"
+         name="password"
+         id="password"
+         placeholder="password"
+         required
+  >
+  <br>
+  <label for="confirmpassword">*Confirm Password</label>
+  <input type="password"
+         name="confirmpassword"
+         id="confirmpassword"
+         placeholder="confirmpassword"
+         required
+  >
+  <br> <br>
+  <input type="checkbox"
+  id="consent"
+  name="consent"
+>
+<label for="consent">
+*You are required to agree to the <a href="https://www.google.com/" title="terms and conditions" target="_blank">terms and conditions</a>
+</label>
+<br> <br>
+<input type="checkbox"
+  id="agreetothis"
+  name="agreetothis"
+>
+<label for="agreetothis">
+ Agree to this and <i>we will send you emails</i>
+</label>
+<br> <br>
+<input type="checkbox"
+       id="GDPR-consent"
+       name="GDPR-consent"
+>
+<label for="GDPR-consent"> GDPR generic consent?
+</label>
+<br> <br>
+</label>
+<button type="submit">Create an account</button>
+<button type="reset">Reset</button>
+  </fieldset>
+</form>
+<p><img src="images/thank_you.jpg"
+        alt="thank you">
+</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p> <a href="https://www.google.com/"target="blank" title="Home"> Home</a>
+  <a href="https://www.google.com/"target="blank" title="Create account">Create account</a>
+  <a href="https://www.google.com/ "target="blank" title="Your account">Your account</a>
+  <a href="https://www.google.com/"target="blank" title="Customer service">Customer service</a>
+  <a href="https://www.google.com/ "target="blank" title="Contact">Contact</a>
+</p>
 </body>
 </html>
