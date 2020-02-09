@@ -4,57 +4,306 @@
   <title>Forms</title>
 </head>
 <body>
+  <p> <a href="https://www.google.com/"   
+         alt="Home" 
+         target="_blank">Home *
+      </a>     
+      <a href="https://www.google.com/"   
+         alt="Place order" 
+         target="_blank"><b>Place order *</b>
+      </a>
+      <a href="https://www.google.com/"   
+         alt="Customer service" 
+         target="_blank">Customer service *
+      </a>
+      <a href="https://www.google.com/"   
+         alt="Contact" 
+         target="_blank">Contact
+      </a>
+  </p>
+  <h1>Place order</h1>
+  <p>This is the <b>guest checkout</b>
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <h3>Products</h3>
+  <p> <img src="images/mouse.jpg" 
+           alt="mouse"
+      >
+      <a href="https://www.google.com/"  
+         alt="Sterge" 
+         target="_blank"
+      >Sterge 
+      </a>
+      <a href="https://www.google.com/" 
+         alt="Editeaza" 
+         target="_blank"
+      >Editeaza
+      </a>
+  </p>
+  <hr>
+  <p><img src="images/extension_chord.jpg" 
+           alt="extension chord"
+      >
+      <a href="https://www.google.com/"  
+        alt="Sterge" 
+        target="_blank"
+      >Sterge 
+      </a>
+      <a href="https://www.google.com/" 
+        alt="Editeaza" 
+        target="_blank"
+      >Editeaza
+      </a>
+  </p>
+  <hr>
+  <p> <img src="images/phone.jpg" 
+    alt="extension chord"
+      >
+      <a href="https://www.google.com/"  
+      alt="Sterge" 
+      target="_blank"
+      >Sterge 
+      </a>
+      <a href="https://www.google.com/" 
+      alt="Editeaza" 
+      target="_blank"
+      >Editeaza
+      </a>
+  </p>
+  <h3>Order now</h3>
+  <p>On our website <i>no account is needed</i> .
+  </p>
+  <br>
+  <ol>
+    <li>
+      First we need some info about yourself. <b>Don’t forget to provide a phone</b>.
+    </li>
+    <li>
+      Then we need your real shipping address. 
+    </li>
+    <li>Finally, your credit card information.
+    </li>
+  </ol>
+  <br>
+  <br>
+  <br>
+  <br>
   <form>
     <fieldset>
-      <legend>Personal Information</legend>
-      <p>Title: <label>Mr</label><input type="radio" checked> <label>Ms</label><input type="radio"> <label>Unspecified</label><input type="radio"></p>
-      <label>*Name:</label><input placeholder="Name"><br><br>
-      <label>*Surname:</label><input placeholder="Surname"><br><br>
-      <label>*Email:</label><input placeholder="Email"> <br><br>
-      <label>*Phone</label><input placeholder="Phone"><br><br>
+    <legend>Personal information</legend>
+    <label>Title</label>
+    <label for="Gendermale">Mr</label>
+    <input type="radio"
+           name="gender"
+           id="gendermale"
+    >
+    <label for="Genderfemale">Ms</label>
+    <input type="radio"
+           name="gender"
+           id="genderfemale"
+    >
+    <label for="Genderunspec">Unspecified</label>
+    <input type="radio"
+           name="gender"
+           id="genderunspec"
+    >
+    <br>
+    <label for="name">*Name</label>
+    <input type="text"
+           id="name"
+           name="name"
+           placeholder="Name"
+           required
+    >
+    <br>
+    <label for="surname">*Surname</label>
+    <input type="text"
+           id="surnname"
+           name="surname"
+           placeholder="Surname"
+           required
+    >
+    <br>
+    <label for="email">*Email</label>
+    <input type="text"
+           id="email"
+           name="email"
+           placeholder="Email"
+           required
+    >
+    <br>
+    <label for="Phone">*Phone</label>
+    <input type="tel"
+           id="phone"
+           name="phone"
+           placeholder="Phone"
+           required
+    >
     </fieldset>
-
+  <br>
+  <fieldset>
+  <legend>Address</legend>
+  <label for="name">*Name</label>
+    <input type="text"
+           id="name"
+           name="name"
+           placeholder="Name"
+           required
+    >
+    <br>
+    <label for="surname">*Surname</label>
+    <input type="text"
+           id="surnname"
+           name="surname"
+           placeholder="Surname"
+           required
+    >
+    <br>
+    <label for="email">*Email</label>
+    <input type="text"
+           id="email"
+           name="email"
+           placeholder="Email"
+           required
+    >
+    <br>
+    <label for="Phone">*Phone</label>
+    <input type="tel"
+           id="phone"
+           name="phone"
+           placeholder="Phone"
+           required
+    >
+    <br>
+    <label for="address">*Addres Line 1</label>
+    <input type="text"
+           id="address"
+           name="address"
+           placeholder="Address line 1"
+           required
+    >
+    <br>
+    <label for="address2">Addres Line 2</label>
+    <input type="text"
+           id="address2"
+           name="address2"
+           placeholder="Address line 2"
+    >
+    <br>
+    <label for="city">*City</label>
+    <input type="text"
+           id=" city"
+           name="city"
+           placeholder="city"
+           required
+    >
+    <br>
+    <legend>*State</legend>
+    <select name="State">
+      <option value="State">--State--</option>
+    </select>
+    <br>
+    <label for="Postcode">*Postcode</label>
+    <input type="number"
+           id="Postcode"
+           name="Postcode"
+           placeholder="Postcode"
+           required
+    >
+  </fieldset>
+  <fieldset>
+    <legend>Card information</legend>
+    <label for="cardnumber">*Card number</label>
+    <input type="texts"
+           name="cardnumber"
+           id="cardnumber"
+           placeholder="Cardnumber"
+           required
+    >
+    <br>
+    <label for="nameoncard">*Name on card</label>
+    <input type="text"
+           name="nameoncard"
+           id="nameoncard"
+           placeholder="Name on card"
+           required
+    >
+    <br>
+    <label>*Expiry month<label>
+    <select>
+      <option value="January">--January--</option>
+    </select>
+    <label>*Expiry year</label>
+    <select>
+      <option value="2019">2019</option>
+    </select>
+    <br>
+    <label for="cvv">*CVV</label>
+    <input type="text"
+           name="cvv"
+           id="cvv"
+           placeholder="CVV"
+           required
+    >
+    <p><i>We do not store credit card information!</i></p>
+  </fieldset>
     <fieldset>
-      <legend>Address</legend>
-      <label>*Name:</label><input placeholder="Name"><br><br>
-      <label>*Surname:</label><input placeholder="Surname"><br><br>
-      <label>*Phone</label><input placeholder="Phone"><br><br>
-      <label>*Address Line 1:</label><input placeholder="Address Line 1"><br><br>
-      <label>Address Line 2:</label><input placeholder="Address Line 2"><br><br>
-      <label>*City:</label><input placeholder="City"><br><br>
-      <label>*State:</label>
-      <select>
-        <option>--State--</option>
-      </select><br><br>
-      <label>*Postcode</label><input placeholder="Postcode"><br><br>
+      <legend>Form controls</legend>
+        <input type="checkbox"
+               name="consent"
+               id="consent"
+        >
+        <label for="consent">* You are required to agree to the 
+          <a href="https://ro.wikipedia.org/wiki/Termeni_de_utilizare"
+             alt="terms and conditions"
+             target="_blank">terms and conditions
+           </a>
+         </label>
+         <br>
+         <input type="checkbox"
+                name="sendemails"
+                id="sendemails"
+         >
+         <label for="sendemails">Can we send you emails
+         </label>
+         <br>
+         <input type="checkbox"
+                name="gdpr"
+                id="gdpr"
+         >
+         <label for="gdpr">GDPR generic consent?
+         </label>
+         <br>
+      <button type="submit">PLACE ORDE
+      </button>
+      <button type="reset">Reset
+      </button>
     </fieldset>
-
-    <fieldset>
-      <legend>Card Information</legend>
-      <label>*Card number</label><input placeholder="Card Number"><br><br>
-      <label>*Name on card</label><input placeholder="Name on card"><br><br>
-      <label>*Expiry Month</label>
-      <select>
-        <option>January</option>
-      </select>
-      <label>*Expiry Year</label>
-      <select>
-        <option>2019</option>
-      </select>    
-      <br><br>
-      <label>*CVV</label><input placeholder="CVV">
-      <p><em>We do not store credit card information!</em></p>
-    </fieldset>
-
-    <fieldset>
-      <legend>Form Controls</legend>
-      <input type="checkbox"><label>*You are required to agree to the <a href="">terms and conditions</a></label> <br><br>
-      <input type="checkbox"><label>Can we send you emails?</label> <br><br>
-      <input type="checkbox"><label>GDPR generic consent?</label> <br><br>
-      <button>PLACE ORDER</button>
-      <button>Reset</button>
-    </fieldset>
-  </form>
-
+</form>
+  <br>
+  <br>
+  <br>
 </body>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<p> <a href="https://www.google.com/"   
+  alt="Home" 
+  target="_blank">Home *
+</a>     
+<a href="https://www.google.com/"   
+  alt="Place order" 
+  target="_blank"><b>Place order *</b>
+</a>
+<a href="https://www.google.com/"   
+  alt="Customer service" 
+  target="_blank">Customer service *
+</a>
+<a href="https://www.google.com/"   
+  alt="Contact" 
+  target="_blank">Contact
+</a>
+</p>
 </html>
+
