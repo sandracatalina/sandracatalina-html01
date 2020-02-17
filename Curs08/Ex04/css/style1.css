@@ -1,0 +1,60 @@
+body {
+  padding-top: 15px;
+}
+
+.container {
+  border: 1px solid #000; 
+  padding: 5px;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: black;
+  padding:5px;
+}
+
+nav a {
+  color: white;
+}
+ 
+
+.container p .legend {
+  position: absolute;
+  top: -13px;
+  left: 6px;
+  border: 1px solid black;
+  padding: 3px;
+  background-color: white;
+}
+
+.container p .subscript {
+  position: relative;
+  bottom: -5px;
+  font-size: 10px;
+}
+
+.sticky-nav {
+  list-style-type: none;
+  background-color: green;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  margin: 0px;
+  z-index: 1;
+}
+
+.sticky-nav li {
+ display: inline-block;
+ margin-left: 3px;
+ margin-right: 3px;
+}
+
+.sticky-nav li a {
+  color: white;
+}

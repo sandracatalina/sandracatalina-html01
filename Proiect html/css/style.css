@@ -51,9 +51,10 @@ body {
     color: #707070;
 }
 .cart .cart-count {
-    color:white; /* #fff*/
+    color:white; 
     background-color: #FF6B6B;
 }
+
 
 .banner-main .container a {
     color: #FF6B6B;
