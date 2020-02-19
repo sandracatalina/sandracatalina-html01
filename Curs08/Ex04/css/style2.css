@@ -1,0 +1,58 @@
+
+body{
+    padding: 15px;
+    padding-bottom: 15px;
+}
+  .container {
+    border: 1px solid black;
+    position: relative;
+    padding:5px;
+  }
+
+nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    padding: 5px;
+}
+
+nav a{
+    color: red;
+}
+
+.container p .legend {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.sup {
+    position: relative;
+    top: -4px;
+    font-size: 10px;
+}
+
+ .sticky-nav { 
+     list-style-type:none;
+     margin: 0;
+     padding: 5px;
+     background-color: green;
+     display: inline-block;
+     position: fixed;
+     top:0;
+     left: 0;
+     z-index: 1;
+ }
+
+ .sticky-nav li {
+     display: inline-block;
+ }
+
+.sticky-nav a {
+    color: white;
+    text-decoration: none;
+}
