@@ -9,7 +9,7 @@
     width: 5px;
     height: 5px;
     background-color: purple;
-    transform: rotate (45deg);
+    transform: rotate(45deg);
     position: absolute;
     top: 7px;
     left: 3px;
@@ -22,9 +22,15 @@
     width: 5px;
     height: 5px;
     background-color: red;
-    border-radius: 10px;
-    transform: skew(0, 15deg);
+    border-radius: 2px;
     position: absolute;
+    transform: skew(0, 15deg);
     top: 7px;
     right: 3px;
+}
+
+.my-second-list a::before {
+    content: "";
+    display: inline-block;
+
 }

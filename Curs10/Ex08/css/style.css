@@ -1,8 +1,13 @@
 
-input [type= "checkbox"]:checked + label {
+input[type="checkbox"]:checked +label{
   color: green;
 }
 
-input [type="radio"]:checked + label {
+input[type="radio"]:checked +label {
     background-color: green;
+}
+
+select option:checked {
+  color: red;
+  font-weight: bold;
 }
