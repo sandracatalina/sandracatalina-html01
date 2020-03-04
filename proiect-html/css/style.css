@@ -98,6 +98,37 @@ body {
   float: left;
 }
 
+
+.header-controls .fa-angle-down {
+  height: 44px;
+}
+
+.header-controls .user-controls,
+.header-controls .cart {
+  float: left;
+}
+
+.header-controls .cart {
+  margin: 6px 0 0 15px;
+  position: relative;
+}
+
+.header-controls .cart .cart-count {
+  position: absolute;
+  left: 27px;
+  display: inline-block;
+  text-align: center;
+  padding: 3px 5px;
+  top: -9px;
+  border-radius:15px;
+}
+
+.header-controls .cart .fa-shopping-cart {
+  width: 32px;
+  height: 32px;
+}
+
+
 .header-controls {
   float: right;
 }
@@ -406,6 +437,28 @@ body {
   text-transform: uppercase;
 }
 
+.social-section ul li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-section ul li a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #5e5e5e;
+  border-radius: 60px;
+  color: #5e5e5e ;
+}
+
+.social-section ul li a[class*="fa-"] {
+  width: 360px;
+  height: 360px;
+}
+
+
 .payment-section ul {
   width: 380px;
   margin:0 auto ;
@@ -453,9 +506,23 @@ footer{
   clear:both;
 }
 
-.footer .footer-icons li {
-  display:inline-block
+.footer .footer-customer-support .footer-icons {
+  margin-top: 15px;
+}
 
+.footer .footer-icons li {
+  text-align: center;
+  display:inline-block;
+  margin: 0 10px;
+
+}
+
+.footer .footer-icons li a [class*="fa-"] {
+  color: #ff6b6b;
+  display: inline-block;
+  width: 39px;
+  height: 39px;
+  margin-bottom: 8px;
 }
 
 .footer .footer-contact h2 {
