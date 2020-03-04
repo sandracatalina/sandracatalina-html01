@@ -295,6 +295,188 @@ body {
   padding: 13px 34px;
   cursor: pointer;
 }
+.product-list footer {
+  margin:52px 0 0 0 ;
+  text-align: center;
+}
 
 
 
+.product-list footer a {
+  text-transform: lowercase;
+  color: #707070;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+
+.product-list footer a:hover {
+ color: black;
+}
+
+
+.product-list footer a:hover::after {
+  background-color: black;
+  width: 60px;
+  right: -80px;
+
+}
+
+.product-list footer a:hover::before {
+  background-color: black;
+  width: 60px;
+  left: -80px;
+}
+
+
+.product-list footer a::before{}
+.product-list footer a::after{
+  display: block;
+  content: "";
+  background-color: #ff6b6b;
+  width: 20px;
+  height: 1px;
+  position: absolute;
+  top: 9px;
+
+  transition: width 0.6s linear,
+      left 0.6s linear,
+      right 0.6 linear
+}
+
+
+.product-list footer a::before{
+  display:  block;
+  content: "";
+  background-color: #ff6b6b;
+  width: 20px;
+  height: 1px;
+  position: absolute;
+  top: 9px;
+  left: -40px;
+}
+
+  .product-list footer a::after{
+  right: -40px;
+}
+
+.home-secondary-banner{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height:236px;
+  background-image: url(../images/banners/stock-man-buying-suit-in-store-2507x1410.jpg);
+  background-position: 50% 50%;
+  background-repeat:no-repeat;
+  background: cover;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.home-secondary-banner .flex-fix {
+  width: 280px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.home-secondary-banner .flex-fix span:nth-child(1) {
+  font-size: 26px;
+  display: inline-block;
+  margin-bottom: 10px;
+
+}
+
+.home-secondary-banner .flex-fix span:nth-child(3) {
+  font-size: 18px;
+}
+
+.home-section {
+  margin-top:  115px;
+  text-align: center;
+}
+
+.home-section h1 {
+  font-size: 41px;
+  margin-bottom: 30px;
+}
+
+.home-section h1 span {
+  color: black;
+  text-transform: uppercase;
+}
+
+.payment-section ul {
+  width: 380px;
+  margin:0 auto ;
+}
+
+.payment-section ul li {
+  display: inline-block;
+  margin: 0 10px 10px 10px;
+}
+
+footer{
+  margin: 56px 0 35px 0;
+}
+
+.footer .footer-top {
+  min-height: 322px;
+  background-image: url(../images/banners/Group\ 500.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 48px 0 0 48px;
+  font-size: 14px;
+  color: #aeaeae;
+}
+
+.footer .footer-top ul {
+  float: left;
+  margin: 0 60px 40px 0;
+}
+
+.footer .footer-top ul li {
+  margin-bottom: 5px;
+}
+
+.footer .footer-top ul li a {
+  color: #aeaeae;
+  text-decoration: none;
+}
+
+.footer .footer-top ul li a:hover {
+  text-decoration: underline;
+}
+
+ .footer .footer-customer-support {
+  clear:both;
+}
+
+.footer .footer-icons li {
+  display:inline-block
+
+}
+
+.footer .footer-contact h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.footer .footer-contact a {
+  color: #FF6B6B;
+  text-decoration: none;
+}
+
+.footer .footer-bottom {
+  text-align: center;
+   margin-top: 20px ;
+}
+
+.footer .footer-bottom {
+  margin-bottom: 10px;
+}
+
+.footer .footer-bottom p span {
+  color:black;
+}
